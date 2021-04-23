@@ -37,7 +37,7 @@
 						<div class="form-header">
 							<h1>Đây là vé của bạn :</h1>
 						</div>
-						<div class="row" style="background-color: black	">
+						<div class="row" style="background-color: black">
 							<div class="col-md-4">
 								<img th:src="${qr}">
 							</div>

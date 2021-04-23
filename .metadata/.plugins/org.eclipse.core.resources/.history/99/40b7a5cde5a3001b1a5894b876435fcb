@@ -17,7 +17,7 @@ public class home {
 	
 	@GetMapping()
 	public String home() {
-		//Match[] match =rest.getForObject("http://localhost:8092/matches/"+matchID,Match[].class);
+
 		return "home";
 	}
 
