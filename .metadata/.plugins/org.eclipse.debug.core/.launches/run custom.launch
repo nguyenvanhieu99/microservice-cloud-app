@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.jboss.tools.quarkus.core.launchConfigurationType">
+    <mapAttribute key="org.eclipse.debug.core.environmentVariables">
+        <mapEntry key="JAVA_HOME" value="C:\Users\van hieu\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_14.0.2.v20200815-0932\jre"/>
+    </mapAttribute>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="match"/>
+    <stringAttribute key="org.eclipse.ui.externaltools.ATTR_LAUNCH_CONFIGURATION_BUILD_SCOPE" value="${projects:match}"/>
+    <stringAttribute key="org.eclipse.ui.externaltools.ATTR_LOCATION" value="C:\Users\van hieu\Music\cloud\MatchManagement\mvnw.cmd"/>
+    <stringAttribute key="org.eclipse.ui.externaltools.ATTR_TOOL_ARGUMENTS" value="compile quarkus:dev"/>
+    <stringAttribute key="org.eclipse.ui.externaltools.ATTR_WORKING_DIRECTORY" value="C:\Users\van hieu\Music\cloud\MatchManagement\main"/>
+    <stringAttribute key="org.jboss.tools.quarkus.core.profileName" value=""/>
+    <stringAttribute key="process_factory_id" value="org.jboss.tools.quarkus.core.processFactory"/>
+</launchConfiguration>

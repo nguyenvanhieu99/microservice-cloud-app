@@ -1,0 +1,142 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+<title>Booking Form HTML Template</title>
+
+<!-- Google font -->
+<link href="https://fonts.googleapis.com/css?family=Hind:400,700"
+	rel="stylesheet">
+
+<!-- Bootstrap -->
+<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+
+<!-- Custom stlylesheet -->
+<link type="text/css" rel="stylesheet" href="css/style.css" />
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+</head>
+
+<body>
+<section class="container">
+<h1>Events</h1>
+  <div class="row">
+    <article class="card fl-left">
+      <section class="date">
+        <time datetime="23th feb">
+          <span>23</span><span>feb</span>
+        </time>
+      </section>
+      <section class="card-cont">
+        <small>dj khaled</small>
+        <h3>live in sydney</h3>
+        <div class="even-date">
+         <i class="fa fa-calendar"></i>
+         <time>
+           <span>wednesday 28 december 2014</span>
+           <span>08:55pm to 12:00 am</span>
+         </time>
+        </div>
+        <div class="even-info">
+          <i class="fa fa-map-marker"></i>
+          <p>
+            nexen square for people australia, sydney
+          </p>
+        </div>
+        <a href="#">tickets</a>
+      </section>
+    </article>
+    <article class="card fl-left">
+      <section class="date">
+        <time datetime="23th feb">
+          <span>23</span><span>feb</span>
+        </time>
+      </section>
+      <section class="card-cont">
+        <small>dj khaled</small>
+        <h3>corner obsest program</h3>
+        <div class="even-date">
+         <i class="fa fa-calendar"></i>
+         <time>
+           <span>wednesday 28 december 2014</span>
+           <span>08:55pm to 12:00 am</span>
+         </time>
+        </div>
+        <div class="even-info">
+          <i class="fa fa-map-marker"></i>
+          <p>
+            nexen square for people australia, sydney
+          </p>
+        </div>
+        <a href="#">tickets</a>
+      </section>
+    </article>
+  </div>
+  <div class="row">
+    <article class="card fl-left">
+      <section class="date">
+        <time datetime="23th feb">
+          <span>23</span><span>feb</span>
+        </time>
+      </section>
+      <section class="card-cont">
+        <small>dj khaled</small>
+        <h3>music kaboom festivel</h3>
+        <div class="even-date">
+         <i class="fa fa-calendar"></i>
+         <time>
+           <span>wednesday 28 december 2014</span>
+           <span>08:55pm to 12:00 am</span>
+         </time>
+        </div>
+        <div class="even-info">
+          <i class="fa fa-map-marker"></i>
+          <p>
+            nexen square for people australia, sydney
+          </p>
+        </div>
+        <a href="#">booked</a>
+      </section>
+    </article>
+    <article class="card fl-left">
+      <section class="date">
+        <time datetime="23th feb">
+          <span>23</span><span>feb</span>
+        </time>
+      </section>
+      <section class="card-cont">
+        <small>dj khaled</small>
+        <h3>hello dubai festivel</h3>
+        <div class="even-date">
+         <i class="fa fa-calendar"></i>
+         <time>
+           <span>wednesday 28 december 2014</span>
+           <span>08:55pm to 12:00 am</span>
+         </time>
+        </div>
+        <div class="even-info">
+          <i class="fa fa-map-marker"></i>
+          <p>
+            nexen square for people australia, sydney
+          </p>
+        </div>
+        <a href="#">cancel</a>
+      </section>
+    </article>
+  </div>
+</div>
+</section>
+</body>
+</html>

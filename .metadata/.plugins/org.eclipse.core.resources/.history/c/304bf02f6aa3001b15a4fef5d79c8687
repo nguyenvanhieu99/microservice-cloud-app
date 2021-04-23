@@ -1,0 +1,60 @@
+package com.example.demo;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.client.RestTemplate;
+
+@Controller
+@RequestMapping(path = "/home")
+public class home {
+	private RestTemplate rest = new RestTemplate();
+	
+	@GetMapping()
+	public String home() {
+
+		return "home";
+	}
+
+	
+
+	@GetMapping()
+	public String listuser(Model model) {
+		List<user> listuser = Arrays.asList(rest.getForObject("http://localhost:8800/customer", user[].class));
+		model.addAttribute("listuser", listuser);
+		return "user/home";
+	}
+
+	@GetMapping("/edit/{id}")
+	public String edit(Model model, @PathVariable long id) {
+		user u = rest.getForObject("http://localhost:8080/api/user/" + id, user.class);
+
+		model.addAttribute("us", u);
+		return "user/edit";
+	}
+
+	@PostMapping("/edit/{id}")
+	public String editdone(@ModelAttribute user u) {
+		rest.postForObject("http://localhost:8080/api/user/", u, user.class);
+		return "redirect:/user";
+	}
+
+	@GetMapping("/add")
+	public String add(Model model) {
+		model.addAttribute("us", new user());
+		return "user/add";
+	}
+
+	@PostMapping("/add")
+	public String adddone(@ModelAttribute user u) {
+		rest.postForObject("http://localhost:8080/api/user/", u, user.class);
+		return "redirect:/user";
+	}
+
+	@GetMapping("/delete/{id}")
+	public String del(@PathVariable long id) {
+		rest.delete("http://localhost:8080/api/user/" + id);
+		return "redirect:/user";
+	}
+
+}

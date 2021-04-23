@@ -1,0 +1,16 @@
+package com.example.demo;
+
+import org.springframework.stereotype.Controller;
+
+
+@Controller
+@RequestMapping(path="/home")
+public class home {
+	@GetMapping()
+	public String home() {
+		
+		return "home";
+	}
+	
+	
+}
